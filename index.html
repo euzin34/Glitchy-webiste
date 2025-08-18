@@ -3,9 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <title>SYS_ERR_404 - WEBSITE CORRUPTED</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <a href="glitched.html">BUTTON</a>
+    <div class="glitch-overlay" id="glitchOverlay"></div>
+
+    <!-- Main Puzzle Interface -->
+    <div id="puzzleInterface">
+      <header class="header glitched" id="header">
+        <div class="logo glitch-text" id="logo" data-text="BROKEN_SITE.exe">
+          BROKEN_SITE.exe
+        </div>
+        <nav class="nav broken" id="nav">
+          <a href="#" class="nav-link glitch-text" data-text="HOM3">HOM3</a>
+          <a href="#" class="nav-link glitch-text" data-text="4B0UT">4B0UT</a>
+          <a href="#" class="nav-link glitch-text" data-text="CONT4CT"
+            >CONT4CT</a
+          >
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="hero glitched" id="hero">
+          <div class="error-messages" id="errorMessages">
+            <div class="error-msg">ERR_404_SYS_FAIL</div>
+            <div class="error-msg">MEMORY_LEAK_DETECTED</div>
+            <div class="error-msg">VISUAL_CORRUPTION_ACTIVE</div>
+            <div class="error-msg">PROGRAMMING_PARADIGM_CORRUPTED</div>
+          </div>
+
+          <h1
+            class="title glitch-text"
+            id="title"
+            data-text="SYSTEM MALFUNCTION"
+          >
+            SYSTEM MALFUNCTION
+          </h1>
+
+          <p class="subtitle broken-text" id="subtitle">
+            Th1s w3bs1t3 h4s b33n c0rrupt3d... C4n y0u f1x 1t?
+          </p>
+
+          <div class="progress-bar" id="progressBar">
+            <div class="progress-fill" id="progressFill"></div>
+            <span class="progress-text" id="progressText"
+              >0/54 SYSTEMS RESTORED</span
+            >
+          </div>
+        </section>
+
+        <!-- Interactive Puzzles Section -->
+        <section class="puzzle-grid" id="puzzleGrid">
+          <!-- Programming Paradigm Puzzles -->
+          <div class="puzzle-category" id="programmingPuzzles">
+            <h2
+              class="category-title glitch-text"
+              data-text="PROGRAMMING_PARADIGMS.exe"
+            >
+              PROGRAMMING_PARADIGMS.exe
+            </h2>
+            <div class="puzzle-list" id="programmingPuzzleList"></div>
+          </div>
+
+          <!-- Interactive Puzzles -->
+          <div class="puzzle-category" id="interactivePuzzles">
+            <h2
+              class="category-title glitch-text"
+              data-text="INTERACTIVE_REPAIRS.exe"
+            >
+              INTERACTIVE_REPAIRS.exe
+            </h2>
+            <div class="puzzle-list" id="interactivePuzzleList"></div>
+          </div>
+
+          <!-- Advanced Puzzles -->
+          <div class="puzzle-category" id="advancedPuzzles">
+            <h2
+              class="category-title glitch-text"
+              data-text="ADVANCED_SYSTEMS.exe"
+            >
+              ADVANCED_SYSTEMS.exe
+            </h2>
+            <div class="puzzle-list" id="advancedPuzzleList"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer glitched" id="footer">
+        <p class="footer-text glitch-text" data-text="© 2024 CORRUPTED_SYSTEMS">
+          © 2024 CORRUPTED_SYSTEMS
+        </p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="puzzles/programming-puzzles.js"></script>
+    <script src="puzzles/interactive-puzzles.js"></script>
+    <script src="puzzles/advanced-puzzles.js"></script>
+    <script src="effects/visual-effects.js"></script>
+    <script src="game-engine.js"></script>
   </body>
 </html>
